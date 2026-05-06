@@ -43,7 +43,7 @@ const Navbar = () => {
 
         try {
             const response = await fetch(
-                "http://localhost:3001/api/v1/auth/upload/profile-picture",
+                "https://e-commerce-backend-e2mm.onrender.com/api/v1/auth/upload/profile-picture",
                 {
                     method: "POST",
                     credentials: "include",
@@ -87,7 +87,7 @@ const Navbar = () => {
 
         if (path.startsWith("http")) return path;
 
-        return `http://localhost:3001/${path.replace(/^\/+/, "").replace(/\\/g, "/")}`;
+        return `https://e-commerce-backend-e2mm.onrender.com/${path.replace(/^\/+/, "").replace(/\\/g, "/")}`;
     };
 
     const profileImage = getProfileImage();
