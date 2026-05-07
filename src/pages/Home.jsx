@@ -34,7 +34,7 @@ const Home = () => {
           >
             <div className="bg-black/60 p-8 rounded-xl text-center">
               <h1 className="text-5xl font-extrabold text-white">
-                Welcome to <span className="text-cyan-400">ANC Shops</span>
+                Welcome to <span className="text-cyan-400">Aura Shops</span>
               </h1>
               <p className="mt-4 text-gray-300">
                 Discover the best products from trusted vendors.
